@@ -1,0 +1,61 @@
+.button {
+    -fx-background-color: #B27200;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0;
+}
+
+.toggle-button {
+    -fx-background-color: #B27200;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0;
+}
+
+.button:pressed {
+    -fx-background-color: #664C1F;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #664C1F;
+    -fx-background-insets: 0,1,2,3;
+    -fx-background-radius: 3,2,2,2;
+    -fx-padding: 10 20 10 20;
+    -fx-font-size: 14px;
+    -fx-background-radius: 0;
+}
+
+.hbox {
+    -fx-background-color: #E59300;
+}
+
+.hboxAlt {
+    -fx-background-color: #EAB962;
+}
+
+.menu-bar {
+    -fx-background-color: #EAB962;
+}
+
+.dialog-pane {
+    -fx-background-color: #EAB962;
+}
+
+.dialog-pane:header *.header-panel {
+    -fx-background-color: #E59300;
+}
+
+.dialog-pane:header *.header-panel *.label {
+    -fx-text-fill: white;
+}
